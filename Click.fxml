@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="millerau.Controller">
+   <children>
+      <HBox layoutX="38.0" layoutY="51.0" prefHeight="49.0" prefWidth="535.0" />
+      <Label layoutX="74.0" layoutY="14.0" prefHeight="39.0" prefWidth="464.0" text="THE ROAD TO 1,000,000 CLICKS">
+         <font>
+            <Font name="Lucida Sans Demibold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="clickLabel" layoutX="14.0" layoutY="368.0" prefHeight="17.0" prefWidth="566.0" text="CLICKS: 0" textAlignment="JUSTIFY" />
+      <Button fx:id="clickButton" layoutX="58.0" layoutY="103.0" mnemonicParsing="false" onAction="#click" prefHeight="193.0" prefWidth="284.0" text="Click for Click Blu Ray" textAlignment="CENTER">
+         <font>
+            <Font name="Microsoft Uighur" size="18.0" />
+         </font></Button>
+      <Button fx:id="label2" layoutX="399.0" layoutY="129.0" mnemonicParsing="false" onAction="#click2" prefHeight="25.0" prefWidth="156.0" text="x2 CLICK! - Cost: 1,000" />
+      <Button fx:id="label3" layoutX="399.0" layoutY="187.0" mnemonicParsing="false" onAction="#click3" prefHeight="25.0" prefWidth="156.0" text="x3 CLICK! - Cost: 3,000" />
+      <Button fx:id="label100" layoutX="399.0" layoutY="249.0" mnemonicParsing="false" onAction="#click100" prefHeight="25.0" prefWidth="156.0" text="x100 CLICK! - Cost: 10,000" />
+      <Label layoutX="444.0" layoutY="94.0" prefHeight="17.0" prefWidth="83.0" text="Sandler Shop">
+         <font>
+            <Font name="MS Outlook" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
